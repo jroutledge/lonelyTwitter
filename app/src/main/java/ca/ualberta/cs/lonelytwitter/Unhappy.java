@@ -2,6 +2,8 @@ package ca.ualberta.cs.lonelytwitter;
 
 /**
  * Created by jeffreyroutledge on 2017-01-19.
+ *
+ * Unhappy is a subclass that extends mood.
  */
 
 public class Unhappy extends Mood {
@@ -11,6 +13,11 @@ public class Unhappy extends Mood {
         smood = "Unhappy";
     }
 
+    /**
+     * Get smood string.
+     *
+     * @return the string
+     */
     public String getSmood(){
         return smood;
     }
